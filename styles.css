@@ -1,7 +1,22 @@
+body,
 html {
+  height: 100%;
+  margin: 0;
   background-color: black;
-  background-size: cover;
 }
-#light {
-  padding: 10rem;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#clickMe {
+  margin-top: 300px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:saddlebrown;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
 }
